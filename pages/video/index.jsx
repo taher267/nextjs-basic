@@ -1,7 +1,11 @@
-import React from 'react';
+import Header from '../../components/Layout';
 
 const Video = () => {
-  return <div>Video</div>;
+  return (
+    <div>
+      <Header /> Video
+    </div>
+  );
 };
 
 export default Video;
